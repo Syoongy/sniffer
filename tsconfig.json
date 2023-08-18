@@ -1,8 +1,7 @@
 {
   "compilerOptions": {
-    "target": "es2022",
-    "module": "commonjs",
-    "strict": true,
-    "esModuleInterop": true
-  }
+    "rootDir": "src",
+    "outDir": "./dist"
+  },
+  "extends": "@tsconfig/node20/tsconfig.json"
 }
